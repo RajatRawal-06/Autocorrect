@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Autocorrect AI
+
+A production quality AI autocorrect system using Unigram, N gram, and BERT style models. Real time word correction with context awareness.
+
+## Live Demo
+Check out the live deployment here: [Autocorrect AI](https://autocorrect-ai.vercel.app)
+
+## Features
+* Real time typo correction
+* Context aware suggestions
+* Beautiful modern UI with Spline 3D integrations
+
+## Visual Documentation
+
+### Hero Section
+The landing page featuring a 3D Spline scene and animated typography.
+
+<img src="./public/hero.png" width="800" alt="Hero Section">
+
+### Key Features
+Detailed overview of the machine learning models powering the autocorrect engine.
+
+<img src="./public/features.png" width="800" alt="Features Section">
+
+### Interactive Demo
+Type naturally and watch the AI correct your spelling in real time. For example, if you type "Teh quickk broown fux jumpd ovre teh lazzy dgg", the system applies corrections instantly.
+
+<img src="./public/demo.png" width="800" alt="Interactive Demo">
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Run the development server with `npm run dev`
+4. Open http://localhost:3000 in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technologies Used
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Spline 3D
+* Framer Motion
